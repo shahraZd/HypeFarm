@@ -19,8 +19,8 @@ const Hero = () => {
           </h1>
           <div className="text-5xl sm:text-3xl flex items-center justify-center ">
             For
-            <div className="hero-slider bg-primary-500 ml-8">
-              <ul className="hero-slider__words marquee">
+            <div className="hero-slider bg-secondary-500 ml-8 opacity-100">
+              <ul className="hero-slider__words opacity-100 marquee">
                 <li>Crypto</li>
                 <li>Startups</li>
                 <li>B2B</li>
