@@ -49,7 +49,7 @@ module.exports = withMT({
           900: "#001712",
           1000: "#070F07",
         },
-        primarys: {
+        secondary: {
           100: "#ecebf9",
           200: "#b1b0e8",
           300: "#8a88dd",

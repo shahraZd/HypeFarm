@@ -4,7 +4,7 @@ const Card = ({ services }) => {
   return services.map((e, i) => (
     <div
       key={i}
-      className="max-w-sm bg-transparent hover:bg-gradient sm:bg-gradient rounded overflow-hidden rounded-tr-3xl rounded-bl-3xl m-4 pr-2"
+      className="max-w-sm bg-gradient hover:bg-gradient sm:bg-gradient overflow-hidden rounded-tl-3xl rounded-br-3xl m-4 pr-2"
     >
       <Link href={e.link}>
         <div className="px-6 py-4 hover:translate-x-1 ease-in duration-300 hover:ease-in hover:duration-300 ">
