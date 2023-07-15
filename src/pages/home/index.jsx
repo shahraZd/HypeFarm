@@ -3,7 +3,7 @@ import Services from "./Services";
 import CTA from "./CTA";
 import Contact from "./Contact";
 import Testimonials from "./Testimonials";
-import Blog from "./Blog";
+import About from "./About";
 import FAQ from "./FAQ";
 import "./home.css";
 
@@ -13,6 +13,7 @@ const Home = () => {
       <Hero />
       <Services />
       <CTA />
+      <About />
       <Testimonials />
       <FAQ />
       <Contact />

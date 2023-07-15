@@ -51,7 +51,7 @@ function Nav() {
     >
       <div className="header-content ">
         <Link href="/" className="header__content__logo" passHref>
-          {/* <Image src={logo} alt="HypeFarm logo" width={50} height={150} /> */}
+          <Image src={logo} alt="HypeFarm logo" width={250} height={150} />
           {/* <Image
             alt="HypeFarm logo"
             data-src={logo}
