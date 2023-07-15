@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <section className="bg-primary-1000 w-full text-center align-center text-white py-12 text-center flex flex-col justify-center align-center px-7">
+    <section id="#company" className="bg-primary-1000 w-full text-center align-center text-white py-12 text-center flex flex-col justify-center align-center px-7">
       <h1 className="text-2xl my-10 ">
         <span className="text-5xl">About HypeFarm </span>
       </h1>

@@ -3,7 +3,7 @@ import services from "pub/services.json";
 
 const Services = () => {
   return (
-    <section className="services-section">
+    <section className="services-section" id="#services">
       <div className="mb-20 ">
         <h1 className="services-title text-6xl text-black sm:text-4xl font-medium mb-12 ">
           Our Digital <br /> Marketing Services

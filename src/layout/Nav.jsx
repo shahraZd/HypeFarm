@@ -73,17 +73,17 @@ function Nav() {
                 <Link href={e.link}>{e.title}</Link>
               </li>
             ))}
-            <li className={`${size > 768 ? "hidden" : "block"}`}>
-              <Link href="/contact">
+            <li className={`hidden ${size > 768 && "block"}`}>
+              <Link href="#contact">
                 <ButtonFilled content={"Book Intro Call"} />
               </Link>
             </li>
           </ul>
         </nav>
         <div className={`${size < 768 ? "hidden" : "block"}`}>
-          <Link href="/contact">
+          <Link href="#contact">
             {/* <ButtonFilled content={"Book Intro Call"} /> */}
-            <ButtonOutlined content={"Book Intro Call"} />
+            <ButtonOutlined content={"Book Intro Call"}  />
           </Link>
         </div>
         {size <= 768 && (
