@@ -5,11 +5,9 @@ import { Inter } from "next/font/google";
 import Nav from "../layout/Nav";
 import Footer from "../layout/Footer";
 import Head from "next/head";
-// import Script from "next/script";
-// import gradientScript from "@/components/gradientHero/gradientjs";
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata = {
+const metadata = {
   title: "HypeFarm",
   description:
     "A leading marketing agency specializing in community management and comprehensive marketing services.",
