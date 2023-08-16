@@ -83,7 +83,7 @@ function Nav() {
         <div className={`${size < 768 ? "hidden" : "block"}`}>
           <Link href="#contact">
             {/* <ButtonFilled content={"Book Intro Call"} /> */}
-            <ButtonOutlined content={"Book Intro Call"}  />
+            <ButtonOutlined content={"Book Intro Call"} />
           </Link>
         </div>
         {size <= 768 && (

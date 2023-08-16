@@ -27,15 +27,15 @@ const ButtonTransparent = ({ content }) => {
 
 const ButtonOutlined = ({ content }) => {
   return (
-    <Button
-      variant="outlined"
-      className="border-primary-500 text-primary-500 hover:bg-primary-500 hover:text-white"
-    >
+    // <Button
+    //   variant="outlined"
+    //   className="border-primary-500 text-primary-500 hover:bg-primary-700 hover:text-primary-100 hover:opacity-100  "
+    // >
+    //   <span className="opacity-100">{content}</span>
+    // </Button>
+    <button className="bg-transparent text-primary-500 hover:text-primary-100 font-bold border-primary-500 py-1 px-4  ">
       {content}
-    </Button>
-    // <button className="bg-transparent hover:bg-primary-500 text-primary-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent ">
-    //   Button
-    // </button>
+    </button>
   );
 };
 

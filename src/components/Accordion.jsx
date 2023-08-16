@@ -42,6 +42,7 @@ const MyAccordion = ({ item }) => {
         open={open === item.order}
         icon={<Icon id={item.order} open={open} />}
         animate={customAnimation}
+        className="no-highlight"
       >
         <AccordionHeader
           onClick={() => handleOpen(item.order)}
@@ -51,7 +52,7 @@ const MyAccordion = ({ item }) => {
         >
           {item.question}
         </AccordionHeader>
-        <AccordionBody className="text-white text-base sm:text-sm">
+        <AccordionBody className="text-white text-base text-left sm:text-sm">
           {item.answer}
         </AccordionBody>
       </Accordion>

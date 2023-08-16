@@ -38,7 +38,7 @@ module.exports = withMT({
       colors: {
         transparent: "transparent",
         primary: {
-          100: "#e6fdf7",
+          100: "#ffffff",
           200: "#99f6e0",
           300: "#66f1d0",
           400: "#33edc1",
@@ -47,7 +47,7 @@ module.exports = withMT({
           700: "#008b6a",
           800: "#005d47",
           900: "#001712",
-          1000: "#070F07",
+          1000: "#000000",
         },
         secondary: {
           100: "#ecebf9",
