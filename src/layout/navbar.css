@@ -16,7 +16,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  opacity: 0.9;
+  /* opacity: 0.9; */
   transition: 0.4s linear;
   z-index: 10;
 }
