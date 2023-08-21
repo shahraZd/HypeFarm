@@ -1,4 +1,4 @@
-import { ButtonFilled } from "@/components/Button";
+import { ButtonComponent } from "@/components/Button";
 import Link from "next/link";
 
 const CTA = () => {
@@ -20,7 +20,7 @@ const CTA = () => {
           let&apos;s talk.
         </div>
         <Link href="#contact">
-          <ButtonFilled content={"Speak to our team"} />
+          <ButtonComponent content={"Speak to our team"} filled />
         </Link>
       </div>
     </section>

@@ -5,7 +5,7 @@ import { AiOutlineClose } from "react-icons/ai";
 import itemData from "../../public/menu.json";
 import Link from "next/link";
 import "./navbar.css";
-import { ButtonFilled, ButtonOutlined } from "../components/Button";
+import { ButtonComponent } from "../components/Button";
 import Image from "next/image";
 import logo from "pub/Hypefarm Logo_svg.svg";
 
@@ -52,19 +52,10 @@ function Nav() {
       <div className="header-content ">
         <Link href="/" className="header__content__logo" passHref>
           <Image src={logo} alt="HypeFarm logo" width={250} height={150} />
-          {/* <Image
-            alt="HypeFarm logo"
-            data-src={logo}
-            class=" lazyloaded"
-            src={logo}
-            width="130"
-            height="46"
-            className="text-white"
-          /> */}
         </Link>
         <nav
           className={` ${
-            size <= 768 ? (menuOpen ? "nav isMenu" : "nav") : "menu"
+            size <= 768 ? "nav"(menuOpen && "nav isMenu") : "menu"
           }`}
         >
           <ul>
@@ -73,17 +64,19 @@ function Nav() {
                 <Link href={e.link}>{e.title}</Link>
               </li>
             ))}
-            <li className={`hidden ${size > 768 && "block"}`}>
-              <Link href="#contact">
-                <ButtonFilled content={"Book Intro Call"} />
+            <li className={`${size >= 768 ? "hidden" : "block"}`}>
+              <Link href="#contact" onClick={() => setMenuOpen(false)}>
+                <ButtonComponent content={"Book Intro Call"} />
               </Link>
             </li>
           </ul>
         </nav>
-        <div className={`${size < 768 ? "hidden" : "block"}`}>
+        <div
+          className={`${size < 768 || size == undefined ? "hidden" : "block"}`}
+        >
           <Link href="#contact">
-            {/* <ButtonFilled content={"Book Intro Call"} /> */}
-            <ButtonOutlined content={"Book Intro Call"} />
+            {/* <Button content={"Book Intro Call"} /> */}
+            <ButtonComponent content={"Book Intro Call"} filled />
           </Link>
         </div>
         {size <= 768 && (
