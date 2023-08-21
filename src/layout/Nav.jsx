@@ -7,7 +7,7 @@ import Link from "next/link";
 import "./navbar.css";
 import { ButtonFilled, ButtonOutlined } from "../components/Button";
 import Image from "next/image";
-import logo from "pub/hypefarm-logo.svg";
+import logo from "pub/Logo_profile-pic_white.png";
 
 function Nav() {
   const [isHover, setIsHover] = useState(false);
