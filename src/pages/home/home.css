@@ -1,7 +1,8 @@
 /** HERO SECTION **/
 
 .hero_section_bg {
-  /* background: url("../../../public/hero-bg-front.jpg") no-repeat center; */
+  background: url("../../../public/vecteezy_liquid-flow-purple-blue-3d-neon-lava-lamp-vector-geometric_11764329.jpg")
+    no-repeat center;
   background-size: cover;
   /* min-height: fill-available; */
   min-height: 750px;
