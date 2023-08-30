@@ -29,7 +29,7 @@ function Nav() {
     storeScroll();
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
-  }, [window]);
+  }, []);
 
   useEffect(() => {
     if (size > 768 && menuOpen) {
