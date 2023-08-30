@@ -1,9 +1,5 @@
-.fill-btn {
-  width: 100%;
-  line-height: 3.125rem;
-  z-index: 2;
-  overflow: hidden;
-  margin: 15px 0;
+.btn {
+  background-color: rgb(33 33 33 / var(--tw-bg-opacity));
 }
 
 @media screen and (max-width: 1000px) {

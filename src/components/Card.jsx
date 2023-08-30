@@ -8,7 +8,7 @@ const Card = ({ services }) => {
     >
       <Link href={e.link}>
         <div className="px-6 py-4 hover:translate-x-1 ease-in duration-300 hover:ease-in hover:duration-300 ">
-          <div className="flex content-center ">
+          <div className="flex content-center align-center">
             <Image
               alt={e.title}
               decoding="async"
@@ -27,7 +27,7 @@ const Card = ({ services }) => {
                 decoding="async"
               />
             </noscript>
-            <div className="text-primary-900  text-xl ">{e.title}</div>
+            <div className="text-primary-900  text-xl ml-3">{e.title}</div>
           </div>
           <p className="text-gray-700 text-base my-3">{e.content}</p>
         </div>
