@@ -4,14 +4,14 @@
 const Hero = () => {
   return (
     <div className=" text-center min-h-screen flex justify-center  ">
-      {/* <div className="hero_section_bg "></div> */}
-      <iframe
+      <div className="hero_section_bg "></div>
+      {/* <iframe
         src="https://hero.hypefarm.io/"
         width="100%"
         frameborder="0"
         height="auto"
         className="hero_section_bg "
-      ></iframe>
+      ></iframe> */}
       <div className=" hero_section_container   ">
         <div className=" mb-[4.25rem] sm:mb-[1.8rem] box-border  max-w-full">
           <h1 className=" text-5xl sm:text-3xl ">
