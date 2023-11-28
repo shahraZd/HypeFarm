@@ -1,5 +1,5 @@
 import Hero from "./Hero";
-import Services from "./Services";
+import Services from "../services";
 import CTA from "./CTA";
 import Contact from "./Contact";
 import Testimonials from "./Testimonials";

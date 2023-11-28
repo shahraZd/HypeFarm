@@ -1,0 +1,23 @@
+/** SERVICES SECTION **/
+.services-section {
+  background-color: #ecebf9;
+  min-height: 100%;
+  /* position: absolute; */
+  min-width: 100%;
+  z-index: -1;
+  padding: 50px;
+}
+
+.services-info {
+  margin-bottom: 5.125rem;
+}
+
+.services-items {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  align-items: center;
+  width: 100%;
+}
+
+/** END SERVICES SECTION **/
