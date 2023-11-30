@@ -1,5 +1,5 @@
 // import Body from "../layout/Body";
-import Home from "@/pages/home";
+import Home from "@/app/home";
 
 const App = () => <Home />;
 

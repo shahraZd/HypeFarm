@@ -1,6 +1,6 @@
 "use client";
 import Accordion from "@/components/Accordion";
-import faq from "pub/faq.json";
+import faq from "pub/data/faq.json";
 const FAQ = () => {
   return (
     <section className="bg-primary-1000 text-white text-center flex flex-col justify-center align-center  pb-20  ">

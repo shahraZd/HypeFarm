@@ -1,5 +1,5 @@
 import { Card } from "@/components/Card";
-import services from "pub/services.json";
+import services from "pub/data/services.json";
 import "./services.css";
 
 const Services = () => {

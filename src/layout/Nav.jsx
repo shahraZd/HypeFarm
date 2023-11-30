@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import { BiMenuAltRight } from "react-icons/bi";
 import { AiOutlineClose } from "react-icons/ai";
-import itemData from "../../public/menu.json";
+import itemData from "pub/data/menu.json";
 import Link from "next/link";
 import "./navbar.css";
 import { ButtonComponent } from "../components/Button";
