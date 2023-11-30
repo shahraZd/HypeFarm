@@ -10,7 +10,7 @@ const Services = () => {
           <h1 className="services-title text-6xl text-black sm:text-4xl font-medium mb-12 ">
             Our Digital <br /> Marketing Services
           </h1>
-          <p className="  services-desc text-xl w-1/2 sm:w-full text-secondary-700">
+          <p className="services-desc text-xl w-1/2 sm:w-full text-secondary-700">
             Welcome to Hypefarm, your dedicated partner in navigating the
             dynamic landscape of Web3 marketing. As a leading web3 marketing
             agency, we specialize in elevating businesses to new heights through
@@ -20,7 +20,7 @@ const Services = () => {
             in the decentralized digital realm.
           </p>
         </div>
-        <div className="  w-full flex-wrap justify-center align-center  grid grid-cols-3 ">
+        <div className=" flex w-full flex-wrap justify-center align-center  grid-cols-3 ">
           <Card services={services} />
         </div>
       </div>
