@@ -14,7 +14,7 @@ const Services = () => {
             Welcome to Hypefarm, your dedicated partner in navigating the
             dynamic landscape of Web3 marketing. As a leading web3 marketing
             agency, we specialize in elevating businesses to new heights through
-            our strategic services. Whether you're a business-to-business
+            our strategic services. Whether you&apos;re a business-to-business
             enterprise, a cryptocurrency pioneer, an NFT trailblazer, or a
             high-growth startup brand, Hypefarm is here to amplify your presence
             in the decentralized digital realm.
