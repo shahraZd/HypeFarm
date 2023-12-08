@@ -1,5 +1,5 @@
 [
-  { "id": "0", "title": "Services", "link": "services" },
+  { "id": "0", "title": "Services", "link": "service" },
   { "id": "1", "title": "Company", "link": "company" },
-  { "id": "2", "title": "Contact", "link": "contact" }
+  { "id": "2", "title": "Contact", "link": "contacts" }
 ]
