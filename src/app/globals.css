@@ -15,9 +15,6 @@
     --background-end-rgb: 0, 0, 0;
   }
 } */
-h1 {
-  font-size: 3.5rem;
-}
 
 @media only screen and (max-width: 400px) {
   h1 {
@@ -45,6 +42,59 @@ h1 {
   border: 3px solid #fff;
 }
 
+/** HEADINGS SECTION **/
+
+h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 0.5em;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 0.5em;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 0.5em;
+}
+
+h4 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 0.5em;
+}
+
+h5 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 0.5em;
+}
+
+h6 {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 0.5em;
+}
+
+/** END HEADINGS SECTION **/
+
+p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 1.5em;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -58,7 +108,7 @@ body {
 .container {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 45px;
+  padding: auto;
 }
 .no-highlight {
   user-select: none; /*chrome and Opera*/

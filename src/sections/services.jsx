@@ -6,8 +6,8 @@ const Services = () => {
   return (
     <section className="services-section bg-black" id="services">
       <div className="container">
-        <div className="mb-20 ">
-          <h1 className="services-title text-6xl text-black sm:text-4xl font-medium mb-12 ">
+        <div>
+          <h1 className=" mb-12 ">
             Our Digital <br /> Marketing Services
           </h1>
           <p className="services-desc text-xl w-1/2 sm:w-full text-secondary-700">
@@ -19,8 +19,9 @@ const Services = () => {
             high-growth startup brand, Hypefarm is here to amplify your presence
             in the decentralized digital realm.
           </p>
+          <h3 className=" font-medium py-2">Our Digital Marketing Services</h3>
         </div>
-        <div className=" flex w-full flex-wrap justify-center align-center  grid-cols-3 ">
+        <div className=" flex w-full flex-wrap justify-center align-center  grid-cols-3 pt-5 ">
           <Card services={services} />
         </div>
       </div>
