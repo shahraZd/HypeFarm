@@ -13,8 +13,12 @@ module.exports = withMT({
   theme: {
     extend: {
       screens: {
-        sm: { raw: "(max-width: 1000px)" },
         // => @media (max-width: 1000px)
+        xl: { raw: "( min-width: 1200px)" },
+        lg: { raw: "(max-width: 1199px, min-width: 992px)" },
+        md: { raw: "(max-width: 991px, min-width: 768px)" },
+        sm: { raw: "(max-width: 767px, min-width: 576px)" },
+        xs: { raw: "(max-width: 576px)" },
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

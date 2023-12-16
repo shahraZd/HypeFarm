@@ -21,7 +21,7 @@ const Services = () => {
           </p>
           <h3 className=" font-medium py-2">Our Digital Marketing Services</h3>
         </div>
-        <div className=" flex w-full flex-wrap justify-center align-center  grid-cols-3 pt-5 ">
+        <div className=" flex  w-full flex-wrap justify-center align-center  md:grid-cols-3 pt-5 sm:grid-cols-2 xs:grid-cols-1 ">
           <Card services={services} />
         </div>
       </div>
