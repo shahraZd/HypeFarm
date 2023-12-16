@@ -4,6 +4,7 @@ import { BiMenuAltRight } from "react-icons/bi";
 import { AiOutlineClose } from "react-icons/ai";
 import itemData from "pub/data/menu.json";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import "./navbar.css";
 import { ButtonComponent } from "../components/Button";
 import Image from "next/image";
@@ -14,6 +15,7 @@ function Nav() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [size, setSize] = useState();
   const [scroll, setScroll] = useState(false);
+  const pathName = usePathname();
 
   useEffect(() => {
     setSize(window.innerWidth);
@@ -40,11 +42,13 @@ function Nav() {
   const menuToggleHandler = () => {
     setMenuOpen((prev) => !prev);
   };
-  console.log(size);
+  console.log("path", pathName === "/" ? "home" : "not home");
   return (
     <header
       className={`header ${
-        isHover || scroll ? "header_bg_color" : "header_bg_trans"
+        isHover || scroll || pathName !== "/"
+          ? "header_bg_color"
+          : "header_bg_trans"
       }`}
       onMouseOver={() => setIsHover(true)}
       onMouseLeave={() => setIsHover(false)}
