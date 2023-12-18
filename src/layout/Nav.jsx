@@ -42,7 +42,6 @@ function Nav() {
   const menuToggleHandler = () => {
     setMenuOpen((prev) => !prev);
   };
-  console.log("path", pathName === "/" ? "home" : "not home");
   return (
     <header
       className={`header ${
