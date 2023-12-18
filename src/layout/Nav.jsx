@@ -69,14 +69,14 @@ function Nav() {
               </li>
             ))}
             <li className={`${size >= 768 ? "hidden" : "block"}`}>
-              <Link href="#contact" onClick={() => setMenuOpen(false)}>
+              <Link href="/contact" onClick={() => setMenuOpen(false)}>
                 <ButtonComponent content={"Book Intro Call"} filled />
               </Link>
             </li>
           </ul>
         </nav>
         <div className={`${size < 768 ? "hidden" : "block"}`}>
-          <Link href="#contact">
+          <Link href="/contact">
             {/* <Button content={"Book Intro Call"} /> */}
             <ButtonComponent content={"Book Intro Call"} filled />
           </Link>
