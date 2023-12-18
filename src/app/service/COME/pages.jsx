@@ -6,14 +6,16 @@ const ServicesPage = () => {
       <h1 className=" mb-12 ">Community Management, Growth and Engagement</h1>
       <p>Building and Managing Thriving Communities for Blockchain Projects </p>
       <p>
-        In today's competitive blockchain landscape, cultivating a strong online
-        community is crucial for success. A dedicated community provides a
-        powerful platform for engagement, brand advocacy, and ultimately,
+        In today&apos;s competitive blockchain landscape, cultivating a strong
+        online community is crucial for success. A dedicated community provides
+        a powerful platform for engagement, brand advocacy, and ultimately,
         project growth. At HypeFarm, we are experts in building and managing
         thriving communities for blockchain projects, specifically on Twitter
         and Discord.
       </p>
-      <p>Here's how we can help you create a vibrant and engaged community:</p>
+      <p>
+        Here&apos;s how we can help you create a vibrant and engaged community:
+      </p>
 
       <ol className="mb-7">
         <li>
@@ -44,14 +46,14 @@ const ServicesPage = () => {
               and user preferences.
             </li>
             <li>
-              Establish your community channels: We'll create and enhance your
-              community spaces. While integrating features that promote
+              Establish your community channels: We&apos;ll create and enhance
+              your community spaces. While integrating features that promote
               interaction and the sharing of information.
             </li>
             <li>
-              Integrate community tools: We'll implement tools and resources to
-              streamline community management tasks and enhance the user
-              experience.
+              Integrate community tools: We&apos;ll implement tools and
+              resources to streamline community management tasks and enhance the
+              user experience.
             </li>
           </ul>
         </li>
@@ -59,16 +61,17 @@ const ServicesPage = () => {
           3- Content Creation & Engagement:{" "}
           <ul>
             <li>
-              Develop engaging content: We'll create content that resonates with
-              your target audience, providing value, education, and
+              Develop engaging content: We&apos;ll create content that resonates
+              with your target audience, providing value, education, and
               entertainment.
             </li>
             <li>
-              Foster meaningful conversations: We'll facilitate discussions,
-              encourage participation, and respond promptly to member inquiries.
+              Foster meaningful conversations: We&apos;ll facilitate
+              discussions, encourage participation, and respond promptly to
+              member inquiries.
             </li>
             <li>
-              Host community events: We'll organize interactive events like
+              Host community events: We&apos;ll organize interactive events like
               AMAs, contests, and giveaways to boost engagement and excitement.
             </li>
           </ul>
@@ -77,22 +80,22 @@ const ServicesPage = () => {
           4- Community Growth & Management:{" "}
           <ul>
             <li>
-              Implement onboarding strategies: We'll create a seamless
+              Implement onboarding strategies: We&apos;ll create a seamless
               onboarding process for new members, ensuring they feel welcomed
               and informed.
             </li>
             <li>
-              Recruit and empower community leaders: We'll identify and
+              Recruit and empower community leaders: We&apos;ll identify and
               cultivate passionate individuals to serve as moderators and
               ambassadors.
             </li>
             <li>
-              Monitor and analyze community data: We'll track key metrics and
-              analyze community sentiment to consistently improve our
+              Monitor and analyze community data: We&apos;ll track key metrics
+              and analyze community sentiment to consistently improve our
               strategies.
             </li>
             <li>
-              Adapt and evolve: We'll stay ahead of trends and adapt our
+              Adapt and evolve: We&apos;ll stay ahead of trends and adapt our
               approach as needed to maintain a thriving community.
             </li>
           </ul>

@@ -17,24 +17,25 @@ const ServicesPage = () => {
           <span>1-</span> Strategic Planning & Pre-Launch Activities:{" "}
           <ul>
             <li>
-              Develop a compelling tokenomics model: We'll help you design an
-              attractive and sustainable tokenomics model. This model will
+              Develop a compelling tokenomics model: We&apos;ll help you design
+              an attractive and sustainable tokenomics model. This model will
               incentivize long-term token holders and contribute to the
-              project's success.
+              project&apos;s success.
             </li>
             <li>
-              Craft a persuasive whitepaper: We'll create a clear and concise
-              whitepaper. It will outline your project's vision, technology,
-              team, and token economics attracting potential investors.
+              Craft a persuasive whitepaper: We&apos;ll create a clear and
+              concise whitepaper. It will outline your project&apos;s vision,
+              technology, team, and token economics attracting potential
+              investors.
             </li>
             <li>
-              Build a strong community: We'll leverage our expertise in
+              Build a strong community: We&apos;ll leverage our expertise in
               community management to build an engaged community around your
               project. It will foster trust and excitement for your token
               offering.
             </li>
             <li>
-              Generate pre-launch buzz: We'll implement targeted marketing
+              Generate pre-launch buzz: We&apos;ll implement targeted marketing
               initiatives to generate pre-launch buzz, including press releases,
               influencer collaborations, and online advertising.
             </li>
@@ -44,23 +45,25 @@ const ServicesPage = () => {
           2- Launch Execution & Campaign Management:{" "}
           <ul>
             <li>
-              Develop compelling marketing materials: We'll create high-quality
-              marketing materials. They will consist of landing pages, explainer
-              videos, and social media graphics, to effectively communicate your
-              project's value proposition.{" "}
+              Develop compelling marketing materials: We&apos;ll create
+              high-quality marketing materials. They will consist of landing
+              pages, explainer videos, and social media graphics, to effectively
+              communicate your project&apos;s value proposition.{" "}
             </li>
             <li>
-              Implement targeted marketing campaigns: We'll execute targeted
-              campaigns across various channels, including social media, email
-              marketing, and paid advertising, to reach your ideal audience.{" "}
+              Implement targeted marketing campaigns: We&apos;ll execute
+              targeted campaigns across various channels, including social
+              media, email marketing, and paid advertising, to reach your ideal
+              audience.{" "}
             </li>
             <li>
-              Organize engaging AMAs and events: We'll host interactive AMAs and
-              online events. They will help connect with potential investors,
-              answer their questions, and further drive participation.{" "}
+              Organize engaging AMAs and events: We&apos;ll host interactive
+              AMAs and online events. They will help connect with potential
+              investors, answer their questions, and further drive
+              participation.{" "}
             </li>
             <li>
-              Manage media relations and public engagement: We'll secure
+              Manage media relations and public engagement: We&apos;ll secure
               positive media coverage and actively engage with the community.
               This will maintain momentum and keep your project in the
               spotlight.{" "}
@@ -72,23 +75,23 @@ const ServicesPage = () => {
           thriving community:{" "}
           <ul>
             <li>
-              Continue building a thriving community: We'll help you nurture
-              your community post-launch, fostering ongoing engagement and user
-              loyalty.
+              Continue building a thriving community: We&apos;ll help you
+              nurture your community post-launch, fostering ongoing engagement
+              and user loyalty.
             </li>
             <li>
-              Communicate transparently with investors: We'll ensure clear and
-              transparent communication with investors, keeping them updated on
-              project developments and milestones.
+              Communicate transparently with investors: We&apos;ll ensure clear
+              and transparent communication with investors, keeping them updated
+              on project developments and milestones.
             </li>
             <li>
-              Monitor and analyze token performance: We'll track key metrics and
-              analyze token performance. We will also identify areas for
-              improvement and optimize your ongoing marketing efforts.
+              Monitor and analyze token performance: We&apos;ll track key
+              metrics and analyze token performance. We will also identify areas
+              for improvement and optimize your ongoing marketing efforts.
             </li>
             <li>
-              Adapt and evolve your strategy: We'll adapt your token marketing
-              strategy to maintain long-term growth and success.
+              Adapt and evolve your strategy: We&apos;ll adapt your token
+              marketing strategy to maintain long-term growth and success.
             </li>
           </ul>
         </li>
