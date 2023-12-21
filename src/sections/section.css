@@ -1,11 +1,11 @@
 /** SERVICES SECTION **/
-.services-section {
+.section {
   background-color: #ecebf9;
   min-height: 100%;
   /* position: absolute; */
   min-width: 100%;
   z-index: -1;
-  padding: 50px;
+  padding: 5em;
 }
 
 .services-info {

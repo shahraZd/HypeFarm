@@ -6,3 +6,33 @@ li span {
   /* font-weight: bold; */
   font-size: larger;
 }
+
+.service-item {
+  display: flex;
+  width: 100%;
+  flex-grow: 1;
+  position: relative;
+  padding: 50px;
+}
+
+.service-item:nth-child(odd) {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: rgb(226, 224, 235);
+}
+.service-item-txt {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 25px 70px;
+}
+
+.service-item-img {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
