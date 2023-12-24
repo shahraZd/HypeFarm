@@ -15,10 +15,15 @@ li span {
   padding: 50px;
 }
 
-.service-item:nth-child(odd) {
+.service-item:nth-child(even) {
   display: flex;
   flex-direction: row-reverse;
-  background-color: rgb(226, 224, 235);
+  background: rgb(244, 244, 244);
+  background: linear-gradient(
+    128deg,
+    rgba(244, 244, 244, 1) 0%,
+    rgba(238, 242, 249, 1) 100%
+  );
 }
 .service-item-txt {
   width: 50%;

@@ -25,15 +25,7 @@ const ServicesPage = () => {
         </p>
       </div>
       {services.map((e, i) => (
-        <div className="service-item">
-          <div className="service-item-txt font-medium">
-            <Title level={1}>{e.title}</Title>
-
-            <p>{e.content}</p>
-            <Link href={e.link} target="_blank" className="text-xl">
-              Learn more...
-            </Link>
-          </div>
+        <div className="service-item" key={i}>
           <div className="service-item-img">
             <Image
               alt={e.title}
@@ -44,6 +36,14 @@ const ServicesPage = () => {
               width={250}
               height={e.size.height}
             />
+          </div>
+          <div className="service-item-txt font-medium">
+            <Title level={1}>{e.title}</Title>
+
+            <p>{e.content}</p>
+            <Link href={e.link} target="_blank" className="text-xl">
+              Learn more...
+            </Link>
           </div>
         </div>
       ))}

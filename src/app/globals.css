@@ -127,7 +127,8 @@ body {
 
 .sub-page {
   /*margin: 100px auto 0;*/
-  background-color: #ecebf9;
+  /*background-color: #ecebf9;*/
+  background-color: white;
   min-height: 100%;
   /* position: absolute; */
   min-width: 100%;
