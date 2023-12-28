@@ -30,5 +30,21 @@
     "size": { "width": "37", "height": "37" },
     "pic": "/influencer-marketing.svg",
     "content": " In the decentralized world, influence plays a pivotal role. Hypefarm specializes in identifying and collaborating with influential figures in the blockchain and crypto space. By strategically leveraging influencers, we amplify your brand reach, enhance credibility, and create impactful connections within the Web3 community."
+  },
+  {
+    "title": "Token Marketing and ICO/IDO Launch",
+    "icon": "https://ninjapromo.io/wp-content/uploads/2023/02/services-influencer.svg",
+    "link": "/service/TMIIL",
+    "size": { "width": "37", "height": "37" },
+    "pic": "/influencer-marketing.svg",
+    "content": " At HypeFarm, we specialize in developing and implementing comprehensive token marketing strategies. Our goal is to raise awareness, generate excitement, and ultimately drive significant participation in your ICO or IDO."
+  },
+  {
+    "title": "Marketing Strategy",
+    "icon": "https://ninjapromo.io/wp-content/uploads/2023/02/services-pr.svg",
+    "link": "/service/MS",
+    "size": { "width": "35", "height": "35" },
+    "pic": "/influencer-marketing.svg",
+    "content": "Our approach to marketing is anything but one-size-fits-all. At Hypefarm, we pride ourselves on developing customized marketing strategies tailored to the unique needs of our Web3 partners. From project launches to sustained growth initiatives, our strategies are designed to propel your brand forward in the decentralized frontier."
   }
 ]

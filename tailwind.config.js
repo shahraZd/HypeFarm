@@ -24,7 +24,8 @@ module.exports = withMT({
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-        gradient: "linear-gradient(180deg,#f4f4f4 0,#EEF2F9 100%)",
+        // gradient: "linear-gradient(180deg,#f4f4f4 0,#EEF2F9 100%)",
+        gradient: "linear-gradient(180deg,#d8d7f4 0,#ffedf7 100%)",
       },
       translate: {
         1: "1.875rem",
