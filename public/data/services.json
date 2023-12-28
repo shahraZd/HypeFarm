@@ -5,7 +5,7 @@
     "link": "/service/COME",
     "size": { "width": "37", "height": "37" },
     "pic": "/community-management-engagement.svg",
-    "content": "At Hypefarm, we understand the significance of building and managing thriving online communities, especially in the blockchain space. Our experts excel in community management across various platforms, including Twitter and Discord. We cultivate engagement, foster discussions, and enhance your project's visibility within the Web3 ecosystem."
+    "content": "Building and managing online communities for blockchain projects, including Twitter and discord platforms."
   },
   {
     "title": "Social Media Marketing",
@@ -13,7 +13,7 @@
     "icon": "https://ninjapromo.io/wp-content/uploads/2023/02/services-seo.svg",
     "size": { "width": "30", "height": "30" },
     "pic": "/social-media-marketing.svg",
-    "content": "In the ever-evolving Web3 landscape, a robust social media presence is paramount. Hypefarm specializes in developing and executing tailored social media strategies, targeting key platforms such as Twitter, Telegram, Discord, and Reddit. We ensure your brand's voice resonates effectively, reaching your target audience and fostering meaningful connections."
+    "content": "Developing and executing social media marketing strategies for the Web3 ecosystem, targeting platforms such as Twitter, Telegram, Reddit and Discord."
   },
   {
     "title": "Content Marketing",
@@ -21,7 +21,7 @@
     "link": "/service/CM",
     "size": { "width": "37", "height": "37" },
     "pic": "/content-marketing.svg",
-    "content": "Crafting compelling narratives is at the core of successful Web3 marketing. Our content marketing services encompass the development of robust strategies and the creation of engaging materials, including blog articles, whitepapers, case studies, and educational content. We tailor our approach to resonate with specific blockchain audiences, ensuring your message captivates and educates."
+    "content": "Developing content strategies and producing blog articles, whitepapers, case studies, and educational materials targeting specific blockchain audiences."
   },
   {
     "title": "Influencer Marketing",
@@ -29,7 +29,7 @@
     "link": "/service/IM",
     "size": { "width": "37", "height": "37" },
     "pic": "/influencer-marketing.svg",
-    "content": " In the decentralized world, influence plays a pivotal role. Hypefarm specializes in identifying and collaborating with influential figures in the blockchain and crypto space. By strategically leveraging influencers, we amplify your brand reach, enhance credibility, and create impactful connections within the Web3 community."
+    "content": " Identifying and collaborating with influencial figures in the blockchain and crypto space to amplify brand reach and credibility."
   },
   {
     "title": "Token Marketing and ICO/IDO Launch",
@@ -37,7 +37,7 @@
     "link": "/service/TMIIL",
     "size": { "width": "37", "height": "37" },
     "pic": "/influencer-marketing.svg",
-    "content": " At HypeFarm, we specialize in developing and implementing comprehensive token marketing strategies. Our goal is to raise awareness, generate excitement, and ultimately drive significant participation in your ICO or IDO."
+    "content": "Developing marketing strategies that are custom made for our WEB3 partners needs."
   },
   {
     "title": "Marketing Strategy",
@@ -45,6 +45,6 @@
     "link": "/service/MS",
     "size": { "width": "35", "height": "35" },
     "pic": "/influencer-marketing.svg",
-    "content": "Our approach to marketing is anything but one-size-fits-all. At Hypefarm, we pride ourselves on developing customized marketing strategies tailored to the unique needs of our Web3 partners. From project launches to sustained growth initiatives, our strategies are designed to propel your brand forward in the decentralized frontier."
+    "content": "Planning & executing marketing strategies and compaigns to raise awareness and promote Initial Coin Offerings (ICOs) and Initial Decentralized Exchange Offerings (IDOs)."
   }
 ]
