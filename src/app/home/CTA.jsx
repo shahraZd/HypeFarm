@@ -5,7 +5,7 @@ const CTA = () => {
   return (
     <section className="cta-section">
       <div className="container">
-        <h2 className="text-5xl text-center">
+        <h2 className="text-5xl sm:text-base text-center">
           Join Hypefarm on the journey to redefine Web3 marketing. Let&apos;s
           elevate your brand, engage your audience, and cultivate success in the
           decentralized future. Contact us today to embark on this exciting
