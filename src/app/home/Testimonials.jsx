@@ -13,7 +13,7 @@ const Testimonials = () => {
   return (
     <section className="bg-primary-1000 text-white ">
       <div className="container">
-        <h1 className="text-5xl text-center sm:text-3xl my-10 sm:my-7">
+        <h1 className="text-5xl text-center sm:text-3xl py-10 sm:my-7">
           Feedback from Our Clients
         </h1>
         {/* <div className="flex justify-around mx-10  overflow-x-scroll  "> */}

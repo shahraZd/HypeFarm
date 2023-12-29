@@ -6,3 +6,38 @@ li span {
   /* font-weight: bold; */
   font-size: larger;
 }
+
+.service-item {
+  display: flex;
+  width: 100%;
+  flex-grow: 1;
+  position: relative;
+  padding: 50px;
+}
+
+.service-item:nth-child(even) {
+  display: flex;
+  flex-direction: row-reverse;
+  background: rgb(244, 244, 244);
+  background: linear-gradient(
+    128deg,
+    rgba(244, 244, 244, 1) 0%,
+    rgba(238, 242, 249, 1) 100%
+  );
+}
+.service-item-txt {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 25px 70px;
+}
+
+.service-item-img {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
