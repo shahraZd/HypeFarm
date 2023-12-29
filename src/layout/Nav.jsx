@@ -75,7 +75,7 @@ function Nav() {
           </ul>
         </nav>
         <div className={`${size < 768 ? "hidden" : "block"}`}>
-          <Link href="https://calendly.com/hypefarm23/30min?month=2024-01" target"_blank>
+          <Link href="https://calendly.com/hypefarm23/30min?month=2024-01" target="_blank">
             {/* <Button content={"Book Intro Call"} /> */}
             <ButtonComponent content={"Book Intro Call"} filled />
           </Link>
